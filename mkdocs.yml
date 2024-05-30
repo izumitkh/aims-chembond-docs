@@ -1,0 +1,39 @@
+site_name: Documentation for the aims-chembond
+
+theme:
+  name: material
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: teal
+      accent: teal
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: teal
+      accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+extra:
+  generator: False
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting_started/installation.md
+    - Running the code: getting_started/running.md
+    - Input file: getting_started/input.md
+
+  
+
